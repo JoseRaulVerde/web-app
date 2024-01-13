@@ -127,7 +127,6 @@ function App() {
                 <div className="currentpay">
                   <img src={check} className="image" />
                   <p>{allDataCards[0].percentage.toFixed(2)}%</p>
-                  {/*por alguna razon esto no esta funcionando*/}
                   <p>{allDataCards[0].currentPaymentMXN.toFixed(2)}</p>
                 </div>
                 <div className="rest">
@@ -144,7 +143,6 @@ function App() {
                 <div className="currentpay">
                   <img src={check} className="image" />
                   <p>{allDataCards[0].percentage.toFixed(2)}%</p>
-                  {/*por alguna razon esto no esta funcionando*/}
                   <p>{allDataCards[0].currentPaymentUSD.toFixed(2)}</p>
                 </div>
                 <div className="rest">
@@ -161,7 +159,6 @@ function App() {
                 <div className="currentpay">
                   <img src={check} className="image" />
                   <p>{allDataCards[0].percentage.toFixed(2)}%</p>
-                  {/*por alguna razon esto no esta funcionando*/}
                   <p>{allDataCards[0].currentPaymentEUR.toFixed(2)}</p>
                 </div>
                 <div className="rest">
